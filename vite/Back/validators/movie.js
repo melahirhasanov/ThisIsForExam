@@ -1,4 +1,4 @@
-const Movie=require("../models/movie")
+const Movie=require("../Schemas/movie")
 const getAll=async function (req,res) {
     const {title}=req.query
     const movie=await Movie.find({
@@ -22,7 +22,7 @@ const getAll=async function (req,res) {
 const getOne=async function (req,res) {
     const {id}=req.params
     if(!id){
-        
+
     }
     
 }
