@@ -1,0 +1,110 @@
+.container{
+    margin-left: 30px;
+}
+.container2{
+    margin-left: 20vw;
+    margin-right: 30vw;
+}
+.Navbar1{
+    display: flex;
+    justify-content: space-between;
+}
+.NavbarSearc{
+    border: none;
+    font-size: 2vh;
+    margin: 1vh;
+    padding: 0.5vh;
+
+}
+.NavbarButton{
+    background-color: white;
+    border-radius: 3px;
+    font-size: 4vh;
+    padding: 2vh;
+}
+.navIcon:hover{
+    color: black;
+}
+.navIconATag{
+    color: black;
+}
+.ulIcon{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    
+
+}
+#iconNavbar{
+   padding: 0vh 5vh; 
+}
+.Nav2{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.listNav2{
+    text-decoration: none;
+    color: black;
+    padding: 3vh;
+}
+.listNav2:hover{
+    text-decoration: none;
+    color: #0cbaf3;
+    transition: 0.3s;
+}
+.Nav2{
+    list-style-type: none;
+}
+.heroSection{
+    height: 500px;
+    width: 100%;
+    position: relative;
+}
+  
+ .heroImage{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+ }
+  .heroOverlay{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color: white;
+    background-color: rgba(0,0,0,0.5);
+    padding: 20px;
+    border-radius: 10px;
+  }
+  .herooOverlay h1 {
+    font-size: 36px;
+    margin: 0 0 10px;
+  }
+  
+  .heroOverlay .highlight {
+    background-color: yellow;
+    color: black;
+    padding: 0 5px;
+  }
+  
+  .heroOverlay p {
+    font-size: 16px;
+    margin: 10px 0;
+  }
+  
+  .shopNow {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #5ac4ff;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .shopNow:hover {
+    background-color: #3aa1ff;
+  }
